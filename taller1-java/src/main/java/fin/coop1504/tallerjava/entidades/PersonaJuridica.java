@@ -1,6 +1,8 @@
 package fin.coop1504.tallerjava.entidades;
 
-public class PersonaJuridica extends Persona{
+import fin.coop1504.tallerjava.interfaces.ConsultarDatos;
+
+public class PersonaJuridica extends Persona implements ConsultarDatos{
     private DocumentoSRI ruc;
     
     public PersonaJuridica(String nombre, String identificacion,DocumentoSRI documentoSRI) {
@@ -16,4 +18,12 @@ public class PersonaJuridica extends Persona{
 	public String toString() {
 		return super.toString() + "DocumentoSRI: "+ruc;
 	}
+
+	@Override
+	public Persona consulta(String identi) {
+		System.out.println("Consultando"+identi);
+		return new PersonaJuridica(nombre, identificacion, ruc);
+	}
+	
+	
 }

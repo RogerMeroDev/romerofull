@@ -1,0 +1,6 @@
+package fin.coop1504.tallerjava.entidades;
+
+public class PersonaNatural extends Persona{
+	protected String tipoIdentificacion;
+
+}

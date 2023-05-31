@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package fin.coop1504.tallerjava.entidades;
+
+/**
+ * @author romero
+ *
+ */
+public class Persona {
+	protected String nombre;
+	protected String identificacion;
+	protected String tipoIdentificacion;
+	
+	/*Constructor se almacena en ram*/
+	
+	public Persona() { 
+		nombre="";
+		identificacion="";
+		tipoIdentificacion="";
+	}
+	
+	public Persona(String pNombre, String pidentificacion,String ptipoIdentificacion) {
+		nombre=pNombre;
+		this.identificacion=pidentificacion;				
+	}
+	
+}

@@ -1,0 +1,17 @@
+package fin.coop1504.tallerjava.servicios;
+
+import fin.coop1504.tallerjava.entidades.Persona;
+import fin.coop1504.tallerjava.entidades.PersonaNatural;
+
+public class ServiciosPersona {
+
+	public static String registrarDatos(String nombre, String identificacion) {
+		//Persona persona = new Persona();
+		Persona persona2 = new Persona(nombre, identificacion);
+		PersonaNatural personaNatural=new PersonaNatural(nombre,identificacion,"Ced");
+		System.out.println(persona2);
+		System.out.println(personaNatural);
+		return "ok";
+	}
+
+}

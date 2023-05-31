@@ -1,0 +1,10 @@
+package fin.coop1504.tallerjava;
+
+public class AplicacionTaller {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

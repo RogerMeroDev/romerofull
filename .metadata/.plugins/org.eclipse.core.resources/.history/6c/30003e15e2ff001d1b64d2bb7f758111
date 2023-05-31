@@ -1,0 +1,11 @@
+package fin.coop1504.tallerjava;
+
+import fin.coop1504.tallerjava.servicios.ServiciosPersona;
+
+public class AplicacionTaller {
+
+	public static void main(String[] args) {
+		ServiciosPersona.registrarDatos("Rogelio Mero", "3434", "4444444");	
+	}
+
+}

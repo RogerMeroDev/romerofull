@@ -1,0 +1,24 @@
+package fin.coop1504.tallerjava;
+
+import java.util.GregorianCalendar;
+
+import fin.coop1504.tallerjava.entidades.DocumentoSRI;
+import fin.coop1504.tallerjava.servicios.ServiciosPersona;
+
+public class AplicacionTaller {
+
+	public static void main(String[] args) {
+		ServiciosPersona.registrarDatos("Rogelio Mero", "3434");	
+		
+		DocumentoSRI ruc=new DocumentoSRI();
+		ruc.setActividadEconomica("DESARROLLO DE SOFTWARE");
+		ruc.setEstado("A");
+		ruc.setFechaExpedicion(new Date());
+		
+		GregorianCalendar cal=new GregorianCalendar();
+		cal.setTime(new Date());
+		cal.add(GregorianCalendar.YEAR,1);
+		ruc.setFechaExpedicion(cal.getTime());
+	}
+
+}

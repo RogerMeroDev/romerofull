@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package fin.coop1504.tallerjava.entidades;
+
+/**
+ * @author romero
+ *
+ */
+public class Persona {
+	protected String nombre;
+	protected String identificacion;
+	protected String tipoIdentificacion;
+	public Persona() {
+		super();
+		System.out.println("Usando constructor sin parametro");
+		// TODO Auto-generated constructor stub
+	}
+	public Persona(String nombre, String identificacion, String tipoIdentificacion) {
+		super();
+		System.out.println("Usando constructor CON parametro"+nombre+identificacion+tipoIdentificacion);		
+		this.nombre = nombre;
+		this.identificacion = identificacion;
+		this.tipoIdentificacion = tipoIdentificacion;
+	}
+	
+	
+	/*Constructor se almacena en ram*/
+	
+	/*public Persona() { 
+		nombre="";
+		identificacion="";
+		tipoIdentificacion="";
+	}
+	
+	public Persona(String pNombre, String pidentificacion,String ptipoIdentificacion) {
+		nombre=pNombre;
+		this.identificacion=pidentificacion;				
+	}*/
+	
+}

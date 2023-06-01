@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\TallerB\taller1-java\src\main\java\fin\coop1504\tallerjava\entidades\PersonaNatural.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,9 +47,13 @@
 			<item value="fin.coop1504.tallerjava"/>
 		</list>
 		<list key="name">
+			<item value="TallerApisJava"/>
+			<item value="taller-controluniversal"/>
 			<item value="taller1-java"/>
 		</list>
 		<list key="artifactId">
+			<item value="TallerApisJava"/>
+			<item value="taller-controluniversal"/>
 			<item value="taller1-java"/>
 		</list>
 		<list key="projectNameTemplate">

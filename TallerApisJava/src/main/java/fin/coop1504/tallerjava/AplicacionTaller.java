@@ -3,6 +3,8 @@ package fin.coop1504.tallerjava;
 import java.util.ArrayList;
 import java.util.Vector;
 
+import fin.coop1504.tallerjava.excepciones.ExcepcionValidacion;
+
 public class AplicacionTaller {
 
 	public static void main(String[] args) {
@@ -70,12 +72,33 @@ public class AplicacionTaller {
 		/*Imprimer dato de un vector se crea nuevo objeto*/
 		
 		String cadenaVector =vector.get(0);
-		System.out.println(cadenaVector);
+		//System.out.println(cadenaVector);
 		
 		/*Se envia el mismo objeto sin crearlo*/
 		Integer numeroArrayList= lista.get(0);
-		System.out.println(numeroArrayList);
-
+		//System.out.println(numeroArrayList);
+		validarDatos("41");
+		try {
+			validarDatosEspecificos("");
+		} catch (ExcepcionValidacion e) {
+			System.err.println("Codigo Error: "+e.getCodigo()+"Mensaje:"+e.getMensajeTecnico());
+			e.printStackTrace();
+		}finally { /*Exije que se ejcuten las sentencias siguiente haya o no error*/
+			
+		}
+		
+	}
+	/*Validadndo con clase exceptionValidacion*/
+	public static void validarDatos(String anios) {
+		Integer edad=Integer.parseInt(anios);
+		System.out.println(edad);
 	}
 
+	public static void validarDatosEspecificos(String dato)throws ExcepcionValidacion {
+		if(dato==null || dato.isEmpty()) {
+			 //ExcepcionValidacion error = new ExcepcionValidacion("001","Error al validar el dato");
+			// throw error;
+			throw new ExcepcionValidacion("001","Error al validar el dato"); /*Reemplaza las 97 y 98*/
+		}
+	}
 }

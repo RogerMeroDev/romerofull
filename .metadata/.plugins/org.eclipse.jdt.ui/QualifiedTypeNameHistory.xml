@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.entidades.PersonaNatural"/>
-    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.entidades.PersonaJuridica"/>
     <fullyQualifiedTypeName name="fin.coop1504.tallerjava.entidades.DocumentoSRI"/>
     <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
     <fullyQualifiedTypeName name="fin.coop1504.tallerjava.servicios.ServiciosPersona"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.entidades.Persona"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.entidades.Persona"/>
+    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.interfaces.ConsultarDatos"/>
+    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.entidades.PersonaNatural"/>
+    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.entidades.PersonaJuridica"/>
 </qualifiedTypeNameHistroy>

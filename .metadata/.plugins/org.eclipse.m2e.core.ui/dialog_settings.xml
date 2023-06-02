@@ -47,11 +47,13 @@
 			<item value="fin.coop1504.tallerjava"/>
 		</list>
 		<list key="name">
+			<item value="Taller-threads"/>
 			<item value="TallerApisJava"/>
 			<item value="taller-controluniversal"/>
 			<item value="taller1-java"/>
 		</list>
 		<list key="artifactId">
+			<item value="Taller-threads"/>
 			<item value="TallerApisJava"/>
 			<item value="taller-controluniversal"/>
 			<item value="taller1-java"/>

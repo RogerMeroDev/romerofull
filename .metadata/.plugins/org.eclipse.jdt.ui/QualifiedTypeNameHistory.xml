@@ -19,4 +19,11 @@
     <fullyQualifiedTypeName name="fin.coop1504.tallerjava.interfaces.ReferenciaDispositivo"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="fin.coop1504.tallerjava.excepciones.ExcepcionValidacion"/>
+    <fullyQualifiedTypeName name="fin.coop1504.tallerjava.servicios.Ciclista"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

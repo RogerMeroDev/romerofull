@@ -1,0 +1,74 @@
+El día de hoy se da inicio a las capacitaciones, se tiene previsto tomar los horarios:
+Lunes a jueves: 15:00 a 18:00
+Viernes: día completo
+
+Comparto el temario:
+
+Aplicaciones orientadas a Servicios 
+
+Requisitos:
+1. Conocimientos de Programación con JAVA
+2. Conocimientos de comandos DOS
+3. Conocimientos de base de datos
+
+Temas:
+1. JDK 11 (8 horas)
+      a. Configuraciones y uso
+      b. Aspectos Orientación a objetos (Breve)
+      c. IDES
+2. MAVEN (4 horas)
+      a. Configuraciones y uso
+3. GIT (4 horas)
+      a. Configuraciones Bash
+      b. Repositorios y Ramas
+* Taller: Java-Maven-Git (4 horas)  
+4. Arquitecturas de aplicaciones WEB (16 horas)
+      a. Tipos
+      b. Protocolos
+      c. Patrones
+* Taller: Creacion y consumos de servicios Soap-Rest (4 horas)
+5. Herramientas de test servicios web (2 horas)
+      a. SOAP UI
+      b. POSTMAN
+6. Ecosistema Spring Boot (10 horas)
+      a. Started WEB
+      b. Started Actuador
+      c. Started JPA
+      d. Server Eureka
+      e. Started Gateway
+* Taller: Spring boot - Creacion de api gateway con Eureka (4 horas)
+
+Aplicaciones WEB SPA
+
+Requisitos:
+1. Conocimientos de Programación con JAVA y Spring boot
+2. Conocimientos de comandos DOS
+3. Conocimientos de base de datos
+4. Conocimientos de GIT y Maven
+
+Temas:
+1. Angular 14 (20 horas)
+      a. Instalación de NodeJS
+      b. Visual studio code
+      c. Introducción a Typescript. Instalación
+      d. Angular CLI
+      e. Componentes
+      f. Directivas
+      g. Routing
+      h. Services
+      i. Forms
+      j. HTTP
+      k. PIPES
+2. Taller (10 horas)
+      a. Cruds Angular
+      b. Spring boot Api Rest
+
+Started Fullstack Angular + Spring Boot + Keycloack 
+
+Requisitos de Software:
+JDK 11 
+Maven 3
+Git desktop 
+DBeaver 23
+Notepad ++ 
+Eclipse.

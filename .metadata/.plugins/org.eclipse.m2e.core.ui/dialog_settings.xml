@@ -14,6 +14,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -25,8 +26,31 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="fin.coop1504.tallerjava.taller_mvc_servlet"/>
 		</list>
 		<list key="groupId">
+			<item value="fin.coop1504.tallerjava"/>
+		</list>
+		<list key="artifactId">
+			<item value="taller-mvc-servlet"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="1.0"/>
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
 		</list>
 		<list key="artifactId">
 		</list>
@@ -40,34 +64,6 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArtifactPage">
-		<list key="groupId">
-			<item value="fin.coop1504.tallerjava"/>
-		</list>
-		<list key="name">
-			<item value="Taller-threads"/>
-			<item value="TallerApisJava"/>
-			<item value="taller-controluniversal"/>
-			<item value="taller1-java"/>
-		</list>
-		<list key="artifactId">
-			<item value="Taller-threads"/>
-			<item value="TallerApisJava"/>
-			<item value="taller-controluniversal"/>
-			<item value="taller1-java"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="1.0"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">

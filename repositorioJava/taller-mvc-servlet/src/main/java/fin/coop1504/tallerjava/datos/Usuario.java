@@ -7,6 +7,7 @@ public class Usuario {
 	private String estado;
 	private String usuario;
 	private Date fechaCreacion;
+	private String clave;
 
 	public String getNombre() {
 		return nombre;
@@ -26,6 +27,14 @@ public class Usuario {
 
 	public String getUsuario() {
 		return usuario;
+	}
+	
+	public String getClave() {
+		return clave;
+	}
+
+	public void setClave(String clave) {
+		this.clave = clave;
 	}
 
 	public void setUsuario(String usuario) {

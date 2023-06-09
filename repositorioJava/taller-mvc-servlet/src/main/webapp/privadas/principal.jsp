@@ -1,9 +1,10 @@
+<%@page import="fin.coop1504.tallerjava.datos.Usuario" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-
 <%
 
-String nombreUsuario = (String) request.getAttribute("usuario");
+//String nombreUsuario = (String) request.getAttribute("usuario");
+Usuario usuario=(Usuario)request.getSession().getAttribute("UsuarioDB"); 
 %>
 
 <!DOCTYPE html>
@@ -14,18 +15,19 @@ String nombreUsuario = (String) request.getAttribute("usuario");
 </head>
 <body>
 
-	<font color="green">Hola Padre WeWe, Soy la Pagina Principal</font>
+	<font color="green"> Pagina Principal</font>
 
 
 	<form id="form-1" action="/taller-mvc-servlet" method="get">
-		<div align="center">
-			<font style="font-family:Arial; font-size: 8vh">Bienvenido <%=nombreUsuario%></font>
+		<div>
+			<div>Bienvenido <%=usuario%></div>
 		</div>
-		<div align="center">
+		
+		<div>
 			<input type="submit" value="Regresar" id="button-1" />
 		</div>
 	</form>
-
+<% String [] datos= {"Name1","Name2","Name3","Name4"}; %>
 
 
 </body>

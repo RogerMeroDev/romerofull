@@ -7,15 +7,15 @@
 <title>Pagina de Error</title>
 </head>
 <body>
-	<font color="green">Hola Padre WeWe, Soy la Pagina de Errores</font>
+	<font color="green">Pagina de Errores</font>
 <br>	
 <br>
 
 	<form id="form-1" action="/taller-mvc-servlet" method="get">
-		<div align="center">
-			<font style="font-family:Arial; font-size: 8vh">CREDENCIALES INVALIDAS</font>
+		<div >
+			<div><%=request.getAttribute("codigo")%> - <%=request.getAttribute("mensaje") %></div>
 		</div>
-		<div align="center">
+		<div>
 			<input type="submit" value="Regresar" id="button-1" />
 		</div>
 	</form>

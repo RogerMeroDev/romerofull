@@ -10,7 +10,7 @@
 
 	<div align="center">
 		<h1>Login Aplicacion Taller</h1>
-		<hr style="size: 10px">
+		<hr>
 	</div>
 	<div align="center">
 		<form id="form-1" action="/taller-mvc-servlet/login.do" method="post">

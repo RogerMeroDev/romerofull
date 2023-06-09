@@ -1,13 +1,25 @@
+/**
+ * 
+ */
 package fin.coop1504.tallerjava.servicios;
 
-@//agregar el Webservice
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebService;
+
+/**
+ * @author wemacias
+ *
+ */
+@WebService(portName = "serviciosaludo")
 public class ServicioWebSaludo {
-	@webMethod(operationName="Saludar")
-public String saludo (String nombre) {
-	return "Hola" + nombre;
-}
-	@webMethod(operationName="Despedir")
-	public String saludo (String nombre) {
-		return "Adios" + nombre;
+
+	@WebMethod(operationName = "Saludar")
+	public String saludo(@WebParam(name = "nombre")String  nombre) {
+		return "Hola " + nombre;
+	}
+	@WebMethod(operationName = "Despedir")
+	public String despedida(String nombre) {
+		return "Adios " + nombre;
 	}
 }

@@ -7,15 +7,16 @@
 <title>Pagina de Error</title>
 </head>
 <body>
-	<font color="green">Pagina de Errores</font>
-<br>	
-<br>
+	<font color="green">Hola Padre WeWe, Soy la Pagina de Errores</font>
+	<br>
+	<br>
 
 	<form id="form-1" action="/taller-mvc-servlet" method="get">
-		<div >
-			<div><%=request.getAttribute("codigo")%> - <%=request.getAttribute("mensaje") %></div>
+		<div align="center">
+			<font style="font-family: Arial; font-size: 8vh"><%=request.getAttribute("codigo")%>
+				- <%=request.getAttribute("mensaje")%></font>
 		</div>
-		<div>
+		<div align="center">
 			<input type="submit" value="Regresar" id="button-1" />
 		</div>
 	</form>

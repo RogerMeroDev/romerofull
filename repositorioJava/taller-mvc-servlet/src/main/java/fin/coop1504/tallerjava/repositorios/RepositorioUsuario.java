@@ -10,20 +10,19 @@ import fin.coop1504.tallerjava.datos.Usuario;
 public class RepositorioUsuario {
 	public Usuario consultar(String usuario) throws SQLException {
 
-		PreparedStatement consulta = SingletonConexion.getConexion()
-				.prepareStatement("select * from as_tab.tab_usuario where upper(usuario) = ?");
-		consulta.setString(1, usuario);
+		PreparedStatement consula = SingletonConexion.getConexion()
+				.prepareStatement("select * from tab_usuarios_we where upper(usuario) = ?");
+		consula.setString(1, usuario.toUpperCase());
 
-		ResultSet cursor = consulta.executeQuery();
+		ResultSet cursor = consula.executeQuery();
 		Usuario resultado = null;
 		while (cursor.next()) {
 			resultado = new Usuario();
 			resultado.setEstado(cursor.getString("ESTADO"));
-			resultado.setFechaCreacion(cursor.getDate("FECHACREACION"));			
+			resultado.setFechaCreacion(cursor.getDate("FECHACREACION"));
 			resultado.setNombre(cursor.getString("NOMBRE"));
 			resultado.setUsuario(cursor.getString("USUARIO"));
-			resultado.setUsuario(cursor.getString("CLAVE"));
-			
+			resultado.setClave(cursor.getString("CLAVE"));
 		}
 		
 		return resultado;

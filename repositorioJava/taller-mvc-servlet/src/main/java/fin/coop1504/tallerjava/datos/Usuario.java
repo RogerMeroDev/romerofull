@@ -28,14 +28,6 @@ public class Usuario {
 	public String getUsuario() {
 		return usuario;
 	}
-	
-	public String getClave() {
-		return clave;
-	}
-
-	public void setClave(String clave) {
-		this.clave = clave;
-	}
 
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
@@ -48,5 +40,14 @@ public class Usuario {
 	public void setFechaCreacion(Date fechaCreacion) {
 		this.fechaCreacion = fechaCreacion;
 	}
+
+	public String getClave() {
+		return clave;
+	}
+
+	public void setClave(String clave) {
+		this.clave = clave;
+	}
+	
 
 }
